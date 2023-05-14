@@ -1,0 +1,113 @@
+.nav-bar {
+  display: flex;
+  align-items: center;
+  background-color: #dbeafe;
+  padding: 20px;
+  max-width: 800vw;
+  height: 80px;
+}
+
+.nxt-slides-logo {
+  width: 80px;
+  height: 50px;
+  margin-right: 20px;
+}
+
+.nxt-slides-heading {
+  font-family: 'Roboto';
+  font-size: 30px;
+}
+
+.slides-container {
+  display: flex;
+}
+.side-slides-list {
+  height: 400px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding: 0px;
+  margin: 0px;
+}
+.nxt-slides-container {
+  padding: 20px;
+  max-height: 100vh;
+  padding: 0px;
+  margin: 0px;
+}
+.new-plus-icon {
+  height: 16px;
+  width: 16px;
+  margin-right: 10px;
+}
+.new-btn {
+  height: 30px;
+  width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Bree Serif';
+  font-size: 20px;
+  background-color: #dbeafe;
+  border-style: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin: 15px;
+  padding: 20px;
+}
+.current-slide-container {
+  margin: 10px;
+  width: 60vw;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/nxt-slides/nxt-slides-bg.png');
+  background-size: cover;
+  border-radius: 20px;
+}
+.input-element {
+  border-style: none;
+  font-size: 30px;
+  margin: 20px;
+  font-family: 'Bree Serif';
+}
+
+.description-element {
+  font-family: 'Bree Serif';
+  font-size: 30px;
+  color: #0f172a;
+}
+
+.heading-element {
+  font-family: 'Bree Serif';
+  font-size: 30px;
+  color: #0967d2;
+}
+
+.container {
+  background-color: #f8fafc;
+  height: 100vh;
+}
+
+.input-description {
+  background-color: #dbeafe;
+  font-size: 20px;
+  padding: 20px;
+  font-family: 'Bree Serif';
+  border-style: none;
+  border-radius: 10px;
+  text-align: center;
+  color: #0f172a;
+}
+
+.input-heading {
+  background-color: #dbeafe;
+  font-size: 30px;
+  font-family: 'Bree Serif';
+  padding: 20px;
+  border-style: none;
+  border-radius: 10px;
+  text-align: center;
+  color: #0967d2;
+}
